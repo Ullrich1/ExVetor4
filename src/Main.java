@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        int vet[] = new int[11];
+        int []vet = new int[11];
         int cont = 10;
 
         System.out.println("Os elementos impares no intervalo são: ");
