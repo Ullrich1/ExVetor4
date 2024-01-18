@@ -6,15 +6,27 @@ public class Main {
 
         System.out.println("Os elementos impares no intervalo são: ");
 
-        for (int i=0; i<11; i++) {
+        for (int i = 0; i < 11; i++) {
             vet[i] = cont;
             cont++;
         }
 
-        for (int i=0; i<11; i++) {
-            if (vet[i]%2!=0){
+        for (int i = 0; i < 11; i++) {
+            if (vet[i] % 2 != 0) {
                 System.out.print(vet[i] + "\t");
+
             }
+
         }
+
+        System.out.println("\nOs elementos pares no intervalo são: ");
+        for (int i = 0; i < 11; i++) {
+            if (vet[i] % 2 == 0) {
+                System.out.print(vet[i] + "\t");
+
+            }
+
+        }
+
     }
 }
